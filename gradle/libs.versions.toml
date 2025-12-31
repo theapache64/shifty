@@ -1,0 +1,10 @@
+[versions]
+kotlin = "2.2.0"
+korduino = "0.0.1"
+
+[libraries]
+korduino-core = { group = "io.github.theapache64.korduino", name = "core", version.ref = "korduino" }
+
+[plugins]
+kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+korduino = { id = "io.github.theapache64.korduino.gradle", version.ref = "korduino" }
