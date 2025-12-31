@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "korduino-template"
+rootProject.name = "shifty"
