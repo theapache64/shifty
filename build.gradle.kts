@@ -11,6 +11,7 @@ version = "1.0-SNAPSHOT"
 korduino {
     platform = Arg.Platform.Target.ARDUINO
     board = Arg.Board.Type.ESP_32_DOIT_DEVKIT_V1
+    // board = Arg.Board.Type.ESP_8266_NODE_MCU_V2
 }
 
 dependencies {
